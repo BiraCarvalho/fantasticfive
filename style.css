@@ -34,6 +34,10 @@ main {
     color: #5195A3;
 }
 
+.botao {
+    cursor: pointer;
+}
+
 .page--instituicao .atividades span:first-of-type{
     font-size: 48px;
     font-weight: bold;
@@ -49,4 +53,13 @@ main {
 .page--aluno .identificacao{
     color: #ffffff;
     font-size: 1.2rem;;
+}
+
+.page--aluno--desafio .status{
+    color: #666666;
+    font-size: 0.85rem;;
+}
+
+.page--aluno--desafio .status span:first-of-type{
+    
 }
