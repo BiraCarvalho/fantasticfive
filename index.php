@@ -1,42 +1,32 @@
 <?php include_once "init.php" ?> 
 <?php include_once "header.php" ?>
 
-<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-    <div class="pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Ultimos Contratos</h1>
-        <hr>
-        
+    <div class="my-4 px-2">    
         <div class="card-deck">
-
-            <div class="card">                
+            
+            <div class="card border-0 my-4" style="height:620px;">                
                 <div class="card-body">
-                <h5 class="card-title">Outorgante <strong>Rodrigo Arantes</strong></h5>
-                <p class="card-text"><small class="text-muted">Outorgante<strong> Marcelo Guimarães</strong></small></p>
-                <a href="contrato.php" class="btn btn-sm btn-primary">Detalhes</a>
+                    <div class="card-text text-center">
+                        <img src="img/onboarding01.svg" class="img-fluid mb-3">
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Maecenas feugiat leo quis massa eleifend, sit amet venenatis mauris cursus.</p>
+                    </div>
+                    <a href="#" class="btn btn-light border-synapse font-synapse d-block m-auto rounded-pill">Continuar</a>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card border-0">                
                 <div class="card-body">
-                <h5 class="card-title">Outorgante <strong>Rafael Guimarães</strong></h5>
-                <p class="card-text"><small class="text-muted">Outorgante<strong> Rafale Ltda.</strong></small></p>
-                <a href="contrato.php" class="btn btn-sm btn-primary">Detalhes</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">Outorgante <strong>Roberto Souza Filho</strong></h5>
-                <p class="card-text"><small class="text-muted">Outorgante<strong> Banco Real S.A.</strong></small></p>
-                <a href="contrato.php" class="btn btn-sm btn-primary">Detalhes</a>
+                    <div class="card-text text-center">
+                        <img src="img/onboarding02.png" class="img-fluid mb-3">
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Maecenas feugiat leo quis massa eleifend, sit amet venenatis mauris cursus.</p>
+                    </div>
+                    <a href="#" class="btn btn-light border-synapse font-synapse d-block m-auto rounded-pill">Continuar</a>
                 </div>
             </div>
 
         </div>
-    
-        
-
     </div>                              
-</main>
 
 <?php include_once "footer.php" ?>

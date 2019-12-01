@@ -4,51 +4,38 @@
     
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">    
-    <title>Hackthon - AASP</title>
+    
+    <title>3º Hackthon AASP - Equipe Fantastic Five</title>
 
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.1/examples/dashboard/dashboard.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
   </head>
   <body>
 
-    <nav class="navbar navbar-light fixed-top bg-light flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0 p-0" href="/">
-        <img src="img/logo.png" class="img-fluid" >
-      </a>      
-      <ul class="navbar-nav px-3">
-        <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#">Sign out</a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-          <div class="sidebar-sticky">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link" id="list-home-list" href="index.php" >
-                  <span data-feather="home"></span>
-                  Home <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="list-user-list" href="perfil.php" >
-                  <span data-feather="user"></span>
-                  Perfil
-                </a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link" id="list-contracts-list" href="contratos.php" >
-                  <span data-feather="file-text"></span>
-                  Contratos
-                </a>
-              </li>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-synapse">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="img/logo.svg" class="img-fluid" >
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">OnBoarding <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="instituicao.php">Visão da Instituição</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="professor.php">Visão do Professor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aluno.php">Visão do Aluno</a>
+            </li>
             </ul>
-          </div>
-          
-        </nav>
+        </div>
+    </nav>
+    <main role="main">
        
