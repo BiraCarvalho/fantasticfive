@@ -16,45 +16,53 @@
 
     <p class="font-synapse m-2"><strong>Minhas Turmas</strong></p>
 
-    <div class="desafio botao border rounded p-2 m-2 d-flex  align-items-center">
+    <div class="turma botao border rounded p-2 m-2 d-flex  align-items-center">
         <img src="img/professor-icone.svg" class="mr-3">
         <span>
-            <small>Processual Civel | 32B</small><br>
-            <strong>Caso Modelo 01</strong>
+            <small>Processual Civel</small><br>
+            <strong>Turma 32B</strong>
         </span>
     </div>
 
-    <div class="desafio botao border rounded p-2 m-2 d-flex  align-items-center">
+    <div class="turma botao border rounded p-2 m-2 d-flex  align-items-center">
         <img src="img/professor-icone.svg" class="mr-3">
         <span>
-            <small>CASO</small><br>
-            <strong>Caso Modelo 02</strong>
+            <small>Processual Penal</small><br>
+            <strong>Turma 25C</strong>
         </span>
     </div> 
 
-    <div class="desafio botao border rounded p-2 m-2 d-flex  align-items-center">
+    <div class="turma botao border rounded p-2 m-2 d-flex  align-items-center">
         <img src="img/professor-icone.svg" class="mr-3">
         <span>
-            <small>CASO</small><br>
-            <strong>Caso Modelo 03</strong>
+            <small>Processual Civel</small><br>
+            <strong>Turma 42B</strong>
         </span>
-    </div>     
+    </div>
 
-    <div class="desafio botao border rounded p-2 m-2 d-flex  align-items-center">
+    <div class="turma botao border rounded p-2 m-2 d-flex  align-items-center">
         <img src="img/professor-icone.svg" class="mr-3">
         <span>
-            <small>CASO</small><br>
-            <strong>Caso Modelo 03</strong>
+            <small>Processual Penal</small><br>
+            <strong>Turma 75C</strong>
         </span>
-    </div> 
+    </div>
 
-    <div class="desafio botao border rounded p-2 m-2 d-flex  align-items-center">
+    <div class="turma botao border rounded p-2 m-2 d-flex  align-items-center">
         <img src="img/professor-icone.svg" class="mr-3">
         <span>
-            <small>CASO</small><br>
-            <strong>Caso Modelo 04</strong>
+            <small>Processual Civel</small><br>
+            <strong>Turma 62B</strong>
         </span>
-    </div> 
+    </div>
+
+    <div class="turma botao border rounded p-2 m-2 d-flex  align-items-center">
+        <img src="img/professor-icone.svg" class="mr-3">
+        <span>
+            <small>Processual Penal</small><br>
+            <strong>Turma 85C</strong>
+        </span>
+    </div>
 
 </div>  
 
