@@ -1,13 +1,15 @@
 <?php include_once "init.php" ?> 
 <?php include_once "header.php" ?>
 
-<div class="page--professor--turma">
-   
+<div class="page--professor--desafios">
+ 
+<?php if($turma){ ?>
 <div class="status p-2 bg-light text-center d-flex align-items-center justify-content-between">
     <strong>Turma 32B</strong>
 </div>
+<?php } ?>
 
-<p class="font-synapse m-2"><strong>Desafios</strong></p>
+<p class="font-synapse m-2 py-3"><strong>Desafios</strong></p>
 
 <div class="desafio botao border rounded p-2 m-2 d-flex  align-items-center">
     <img src="img/desafio-icone.svg" class="mr-3">

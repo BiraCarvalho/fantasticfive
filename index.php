@@ -11,18 +11,18 @@
                         <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Maecenas feugiat leo quis massa eleifend, sit amet venenatis mauris cursus.</p>
                     </div>
-                    <a href="#" class="btn btn-light border-synapse font-synapse d-block m-auto rounded-pill">Continuar</a>
+                    <a href="#onboarding02" class="btn btn-light border-synapse font-synapse d-block m-auto rounded-pill">Continuar</a>
                 </div>
             </div>
 
-            <div class="card border-0">                
+            <div class="card border-0" id="onboarding02">                
                 <div class="card-body">
                     <div class="card-text text-center">
                         <img src="img/onboarding02.png" class="img-fluid mb-3">
                         <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Maecenas feugiat leo quis massa eleifend, sit amet venenatis mauris cursus.</p>
                     </div>
-                    <a href="#" class="btn btn-light border-synapse font-synapse d-block m-auto rounded-pill">Continuar</a>
+                    <a href="professor.php" class="btn btn-light border-synapse font-synapse d-block m-auto rounded-pill">Continuar</a>
                 </div>
             </div>
 

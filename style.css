@@ -55,11 +55,13 @@ main {
     font-size: 1.2rem;;
 }
 
+.page--professor .identificacao{
+    color: #ffffff;
+    font-size: 1.2rem;;
+}
+
 .page--aluno--desafio .status{
     color: #666666;
     font-size: 0.85rem;;
 }
 
-.page--aluno--desafio .status span:first-of-type{
-    
-}

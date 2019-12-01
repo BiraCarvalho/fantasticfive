@@ -10,14 +10,24 @@
       })
 
       jQuery('.turma').on('click',function(){
-        window.location.href = 'professor-turma.php'
+        window.location.href = 'professor-turma.php';
       })
 
-      jQuery('.page--professor--turma .desafio').on('click',function(){
-        window.location.href = 'professor-turma-desafios.php'
+      jQuery('.page--professor .turmas').on('click',function(){
+        window.location.href = 'professor-turmas.php';
       })
-     
+      
+      jQuery('.page--professor .desafios').on('click',function(){
+        window.location.href = 'professor-desafios.php';
+      })     
 
+      jQuery('.page--professor--turmas .desafios').on('click',function(){
+        window.location.href = 'professor-desafios.php?turma=1';
+      })
+
+      jQuery('.page--professor--desafios .desafio').on('click',function(){
+        window.location.href = 'professor-turma-desafio.php';
+      })
     </script>
 
   </body>
